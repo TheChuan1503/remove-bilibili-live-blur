@@ -1,15 +1,17 @@
 // ==UserScript==
-// @name         移除bilibili直播间的马赛克
-// @namespace    http://tampermonkey.net/
-// @version      2025-07-05
-// @description  自动移除bilibili直播间网页版左下角和右下角的马赛克
-// @description:en Automatically remove the mosaic in the bottom left and right corners of the Bilibili live streaming webpage version
-// @author       TheChuan1503
-// @match        https://live.bilibili.com/*
-// @icon         https://www.google.com/s2/favicons?sz=64&domain=bilibili.com
-// @grant        none
+// @name            移除bilibili直播间的马赛克
+// @name:en         Remove the mosaic from the Bilibili live
+// @namespace       http://tampermonkey.net/
+// @version         2025-07-05
+// @description     自动移除bilibili直播间网页版左下角和右下角的马赛克
+// @description:en  Automatically remove the mosaic in the bottom left and right corners of the Bilibili live webpage version
+// @author          TheChuan1503
+// @match           https://live.bilibili.com/*
+// @icon            https://www.google.com/s2/favicons?sz=64&domain=bilibili.com
+// @grant           none
+// @license         MIT
 // ==/UserScript==
-
+ 
 (function() {
     'use strict';
     function action(){
